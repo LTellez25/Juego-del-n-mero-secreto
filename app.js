@@ -5,8 +5,9 @@ function asignarTextoElemento(elemento, texto){
     elementoHTML.innerHTML = texto;
 }
 
-function intentoUsuario(){
-    
+function verificarIntento(){
+    let numeroDeUsuario = parseInt(document.getElementById('valorUsuario').value);
+    return;
 }
 
 function generarNumeroSecreto(){
